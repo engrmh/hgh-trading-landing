@@ -1,0 +1,35 @@
+@import url('./font.css');
+@import url('./keyframs.css');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan;
+    direction: rtl;
+}
+.mainBox{
+    background-image: url('../images/img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+span , a{
+    font-size: 1.3rem;
+}
+.showAllProductInSite{
+    background-color: #FFD700;
+    width: fit-content;
+    transition: all 0.2s linear;
+}
+.showAllProductInSite:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px 5px #fff9;
+}
+
+.vidration{
+    animation: phone-vibrate 1s infinite;
+}
+.locationLive{
+    animation: live 1s infinite;
+}
