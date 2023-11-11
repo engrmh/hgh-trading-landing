@@ -42,7 +42,7 @@ let counter = 0;
 const addDataToDom = (data) => {
     dataBox.insertAdjacentHTML("beforeend", `
     <div class="text-white d-flex flex-column mb-3" data-aos="fade-left" data-aos-delay="${counter}">
-    <span class="fs-5 mb-2">
+    <span class="fs-5">
       <i class="fa fa-phone me-2 vidration"></i>
       <span>${data.title}</span>
     </span>
