@@ -74,7 +74,6 @@ window.addEventListener("DOMContentLoaded", () => {
   dataBox.innerHTML = "";
   database.forEach((data) => {
     counter = counter + 100;
-    console.log(counter);
     addDataToDom(data);
   });
 });
