@@ -19,21 +19,21 @@ let database = [
     },
     {
         id: 4,
-        title: "مدیرفروش شرق استان :",
+        title: "مدیریت - حسین غنودی:",
+        phoneNumber: "09113544161",
+        callNumber: "9113544161",
+    },
+    {
+        id: 5,
+        title: "مدیرفروش آقای محمودی:",
         phoneNumber: "09937340178",
         callNumber: "9937340178",
     },
     {
-        id: 5,
-        title: "مدیرفروش گلستان:",
+        id: 6,
+        title: "مدیرفروش آقای رخشانیان:",
         phoneNumber: "09937340177",
         callNumber: "9937340177",
-    },
-    {
-        id: 6,
-        title: "مدیریت - حسین غنودی:",
-        phoneNumber: "09113544161",
-        callNumber: "9113544161",
     },
 ];
 const $ = document;

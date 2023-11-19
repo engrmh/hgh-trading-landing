@@ -54,6 +54,14 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- Web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
@@ -61,11 +69,11 @@
     <div class="row w-100 vh-100">
       <div class="col-12 d-flex align-items-center ps-5">
         <div
-          class="d-flex flex-column align-content-stretch justify-content-around py-0 py-lg-5"
+          class="d-flex flex-column py-0 py-lg-5"
         >
           <div class="dataContainer"></div>
           <div
-            class="text-white d-flex flex-column"
+            class="text-white d-flex flex-column mb-3"
             data-aos="fade-left"
             data-aos-delay="800"
           >
@@ -78,15 +86,29 @@
               <span class="ms-3">عبوری - عبوری 12 - پشت تکیه روضوی</span>
             </span>
           </div>
+          <div
+            class="text-white d-flex flex-column"
+            data-aos="fade-left"
+            data-aos-delay="900"
+          >
+            <span class="fs-5">
+              <i class="fa-solid fa-location-dot me-2 locationLive"></i>
+              دفتر غرب استان :
+            </span>
+            <span class="d-flex flex-column">
+              <span class="ms-3">استان مازندران - تنکابن - خیابان</span>
+              <span class="ms-3">جمهوری - خیابان مهر</span>
+            </span>
+          </div>
 
-          <div class="text-white d-flex flex-column mt-5">
+          <div class="text-white d-flex flex-column mt-5 position-fixed bottom-0 start-50 translate-middle-x upper">
             <a
               class="text-black text-decoration-none d-flex align-items-center py-1 px-2 rounded showAllProductInSite"
               href="https://hgh-trading.ir/"
               class=""
             >
-              <span>مشاهده محصولات در سایت</span>
-              <i class="fa fa-arrow-left ms-3"></i>
+              <span>مشاهده محصولات</span>
+              <i class="fa fa-arrow-left ms-3 leftArrow"></i>
             </a>
           </div>
         </div>
